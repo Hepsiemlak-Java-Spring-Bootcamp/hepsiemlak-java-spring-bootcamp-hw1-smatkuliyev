@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2689f8a4-fe5c-447d-bcac-c25c6a820b29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework/week1Homework/Q01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework/week1Homework/Q01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework/week1Homework/Q01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1Homework/Q01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1Homework/Q01/Q01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1Homework/Q01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1Homework/Q01/Q01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1Homework/Q02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1Homework/Q02/Q02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1Homework/Q02_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1Homework/Q02/Q02_A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1Homework/Q02_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1Homework/Q02/Q02_B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1Homework/Q02_C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1Homework/Q02/Q02_C.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -34,10 +39,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/week1Homework/Q03Test" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Q01">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Msı\Desktop\Hepsi JavaSpring\Homework\src\week1Homework\Q01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week1Homework.Q03Test.Main" />
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week1Homework.Q03Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Homework" />
@@ -48,12 +71,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1Homework.Q01" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week1Homework.Q03Test.Main" />
       <module name="Homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week1Homework.*" />
+          <option name="PATTERN" value="week1Homework.Q03Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week1Homework.Q03Test.Methods" />
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week1Homework.Q03Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week1Homework.Q01.Q01" />
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week1Homework.Q01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,6 +112,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Methods" />
         <item itemvalue="Application.Q01" />
       </list>
     </recent_temporary>
@@ -79,7 +131,26 @@
       <updated>1643714270974</updated>
       <workItem from="1643714272407" duration="90000" />
       <workItem from="1643714417803" duration="4260000" />
-      <workItem from="1643718892479" duration="2067000" />
+      <workItem from="1643718892479" duration="3558000" />
+      <workItem from="1643787308314" duration="38000" />
+      <workItem from="1643788187680" duration="88000" />
+      <workItem from="1643791488958" duration="104000" />
+      <workItem from="1643805735894" duration="1369000" />
+      <workItem from="1643818771011" duration="2920000" />
+      <workItem from="1643871901642" duration="18000" />
+      <workItem from="1643887012560" duration="1598000" />
+      <workItem from="1643888632562" duration="121000" />
+      <workItem from="1643888763073" duration="175000" />
+      <workItem from="1643888948283" duration="424000" />
+      <workItem from="1643889384863" duration="116000" />
+      <workItem from="1643897734498" duration="5000" />
+      <workItem from="1643897798916" duration="51000" />
+      <workItem from="1643958346773" duration="219000" />
+      <workItem from="1643961372480" duration="3017000" />
+      <workItem from="1643964662864" duration="236000" />
+      <workItem from="1643964910886" duration="911000" />
+      <workItem from="1643965843398" duration="10054000" />
+      <workItem from="1643976029126" duration="41000" />
     </task>
     <servers />
   </component>
@@ -87,33 +158,114 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1643720215927">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1643973419405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643720215927" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1643718708528">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643973419405" />
+    <state x="246" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1643888511679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643718708528" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1643718708528">
+    <state x="246" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643888511679" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1643968975246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643718708528" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1643718708528">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643968975246" />
+    <state x="449" y="57" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1643888973791">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643718708528" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1643718708528">
+    <state x="449" y="57" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643888973791" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1643975167328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643718708528" />
-    <state x="1933" y="6" key="SettingsEditor" timestamp="1643714536483">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643975167328" />
+    <state x="2286" y="148" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1024.728@1920.0.1024.728" timestamp="1643965600965" />
+    <state width="1493" height="146" key="GridCell.Tab.0.bottom" timestamp="1643976070238">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="146" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643976070238" />
+    <state width="1493" height="146" key="GridCell.Tab.0.center" timestamp="1643976070238">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="146" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643976070238" />
+    <state width="1493" height="146" key="GridCell.Tab.0.left" timestamp="1643976070238">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="146" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643976070238" />
+    <state width="1493" height="146" key="GridCell.Tab.0.right" timestamp="1643976070238">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="146" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643976070238" />
+    <state x="1933" y="6" key="SettingsEditor" timestamp="1643965277618">
       <screen x="1920" y="0" width="1024" height="728" />
     </state>
-    <state x="1933" y="6" key="SettingsEditor/0.0.1536.824/1920.0.1024.728@1920.0.1024.728" timestamp="1643714536483" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1643718892514">
+    <state x="433" y="75" key="SettingsEditor/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643889375400" />
+    <state x="1933" y="6" key="SettingsEditor/0.0.1536.824/1920.0.1024.728@1920.0.1024.728" timestamp="1643965277618" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1643975781345">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643718892514" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643975781345" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1643976028988">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643976028988" />
+    <state x="2230" y="209" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1024.728@1920.0.1024.728" timestamp="1643965844097" />
+    <state x="604" y="118" width="740" height="606" key="find.popup" timestamp="1643722435582">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="118" width="740" height="606" key="find.popup/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643722435582" />
+    <state x="209" y="0" key="new project wizard" timestamp="1643791590252">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="0" key="new project wizard/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1643791590252" />
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
   </component>
 </project>

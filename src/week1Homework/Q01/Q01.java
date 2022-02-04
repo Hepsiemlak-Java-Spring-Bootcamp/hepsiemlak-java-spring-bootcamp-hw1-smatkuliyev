@@ -1,14 +1,16 @@
-package week1Homework;
+package week1Homework.Q01;
+
+import java.util.List;
 
 public class Q01 {
     private static int count;
 
     public static void main(String[] args) {
 
-        long num = 0;
-        long numCount = 0;
+        int num = 0;
+        int numCount = 0;
 
-        for (long i = 10; i < 100 ; i++) {
+        for (int i = 10; i < 100 ; i++) {
     //       System.out.println("For " + i + ":");
             count=0;
             isPolindrome(i);
@@ -16,12 +18,15 @@ public class Q01 {
     //        System.out.println("=========================");
 
             if(count>numCount){
-                numCount=count;
+                numCount = count;
                 num=i;
             }
 
         }
-        System.out.println("Most repeated number is: " + num);
+        StringBuilder stb = new StringBuilder(String.valueOf(num));
+        stb.reverse();
+
+        System.out.println("Most repeated number is: " + num + ", " + stb);
         System.out.println(numCount + " times iteration");
 
 

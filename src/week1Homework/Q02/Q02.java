@@ -1,4 +1,4 @@
-package week1Homework;
+package week1Homework.Q02;
 
 public class Q02 {
     /*
@@ -22,7 +22,7 @@ public class Q02 {
      */
 }
 
-    class implementsDeneme implements Q02_A,Q02_B,Q02_C{
+    class implementsDeneme implements Q02_A, Q02_B, Q02_C {
         @Override
         public void sum() {
 
